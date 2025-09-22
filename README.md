@@ -11,10 +11,12 @@ Steps to Run the Titanic Cleaning Code
    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 3. Download the Dataset
+
    Go to https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+
    Right-click → “Save As…” → Save as "titanic.csv" in a folder of your choice.
 
-4. Create a Notebook
+5. Create a Notebook
    In the same folder, run:
    
    jupyter notebook
@@ -27,11 +29,7 @@ Steps to Run the Titanic Cleaning Code
 
 7. If you want to save the Cleaned Dataset, you need to add the last line in the code.
 
-df_cleaned.to_csv("titanic_cleaned.csv", index=False)
+   df_cleaned.to_csv("titanic_cleaned.csv", index=False)
 
 This is the simplest workflow.......
-
-* Install → Download CSV → Open Notebook → Paste Code → Run → Done ✅
-
-Want me to also give you a **tiny text you can copy-paste** to send to your mentor describing what you did? (like a 2-3 line summary)
 
